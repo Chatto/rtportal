@@ -1,0 +1,29 @@
+.dash-section
+{
+	*background:rgba(255,255,255,0.1);
+	width:25%;
+	height:auto;
+	float:left;
+	*overflow-y:auto;
+	*overflow-x:hidden;
+}
+.dash-section > h3
+{
+	padding:5px;
+	height:32px;
+}
+main
+{
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	overflow:auto;
+	overflow-x:hidden;
+	height:auto;
+	width:100%;
+	padding:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:48px;
+	margin-bottom:48px;
+}

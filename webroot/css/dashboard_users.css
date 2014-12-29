@@ -1,0 +1,64 @@
+.dashboard-users
+{
+	list-style: none;
+	width:auto;
+	min-width:264px;
+}
+
+.dashboard-users > a
+{
+	color:#FFF;
+	text-decoration: none;
+}
+
+.dashboard-users > a > li
+{
+	width:auto;
+	min-width:264px;
+	height:64px;
+}
+.dashboard-users > a > li:hover
+{
+	cursor:pointer;
+}
+
+.dashboard-users > a > li > div
+{
+	width:64px;
+	height:64px;
+	float:left;
+}
+
+.dashboard-users > a > li > span
+{
+	padding:5px;
+	display:block;
+	line-height: 12px;
+	margin-left:5px;
+	position:relative;
+	left:5px;
+	font-size: 14pt;
+}
+.dashboard-users > a > li > small
+{
+	*color:#FAF;
+	display:block;
+	line-height: 12pt;
+	padding-left:69px;
+	font-size: 11pt;
+}
+.user-status
+{
+	float:right;
+	text-align: bottom;
+	font-size: 14pt;
+}
+.badge {
+  display: inline-block;
+  color: #fff;
+  padding:0px;
+  line-height: 16px;
+  text-align:center;
+  width:16px;
+  height:16px;
+}

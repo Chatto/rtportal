@@ -1,0 +1,70 @@
+
+.profile-info
+{
+	float:left;
+	display:inline-block;
+	width:400px;
+	height:100%;
+	overflow-x:hidden;
+	overflow-y:auto;
+	background:#428bca;
+}
+.profile-avatar
+{
+	height:400px;
+	width:100%;
+	background-size:contain;
+}
+.user-data > button
+{
+	float:right;
+}
+.user-data
+{
+	padding:5px;
+	width:100%;
+}
+.user-data > h3
+{
+	margin-left:25px;
+	margin-bottom:10px;
+	color:#FFF;
+}
+.user-data > table
+{
+	margin-top:10px;
+	margin-left:10px;
+	width:90%;
+	padding:0px;
+}
+.user-data td
+{
+	padding:5px;
+	width:10%;
+}
+.user-columns
+{
+	display:inline;
+	width:auto;
+	height:100%;
+	position:absolute;
+	right:0px;
+	left:400px;
+	margin-right:auto;
+}
+.profile-section
+{
+	width:25%;
+	height:auto;
+	float:left;
+}
+.profile-section > h3
+{
+	padding:5px;
+	height:32px;
+}
+.user-data tr a
+{
+	text-decoration:none;
+	cursor: pointer; 
+}

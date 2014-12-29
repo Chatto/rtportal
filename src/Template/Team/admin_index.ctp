@@ -1,0 +1,3 @@
+<section>
+<? debug($paginate); ?>
+</section>

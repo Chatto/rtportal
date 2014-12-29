@@ -1,0 +1,130 @@
+2014-08-21 07:12:24 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rising_tide.menuses' doesn't exist
+Stack Trace:
+#0 /var/www/portal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(113): Cake\Database\Schema\Collection->_executeSql('SHOW FULL COLUM...', Array)
+#1 /var/www/portal/vendor/cakephp/cakephp/src/ORM/Table.php(323): Cake\Database\Schema\Collection->describe('menuses')
+#2 /var/www/portal/vendor/cakephp/cakephp/src/ORM/Table.php(396): Cake\ORM\Table->schema()
+#3 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(176): Cake\ORM\Table->primaryKey()
+#4 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(102): Cake\Console\Command\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(89): Cake\Console\Command\Task\ModelTask->bake('Menuses')
+#6 [internal function]: Cake\Console\Command\Task\ModelTask->main('Menus')
+#7 /var/www/portal/vendor/cakephp/cakephp/src/Console/Shell.php(375): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/cakephp/cakephp/src/Console/Shell.php(370): Cake\Console\Shell->runCommand(Array, false)
+#9 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(163): Cake\Console\Shell->runCommand(Array, true)
+#10 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(139): Cake\Console\ShellDispatcher->_dispatch()
+#11 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(96): Cake\Console\ShellDispatcher->dispatch()
+#12 /var/www/portal/src/Console/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+2014-08-21 07:13:27 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rising_tide.menuses' doesn't exist
+Stack Trace:
+#0 /var/www/portal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(113): Cake\Database\Schema\Collection->_executeSql('SHOW FULL COLUM...', Array)
+#1 /var/www/portal/vendor/cakephp/cakephp/src/ORM/Table.php(323): Cake\Database\Schema\Collection->describe('menuses')
+#2 /var/www/portal/vendor/cakephp/cakephp/src/ORM/Table.php(396): Cake\ORM\Table->schema()
+#3 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(176): Cake\ORM\Table->primaryKey()
+#4 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(102): Cake\Console\Command\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(89): Cake\Console\Command\Task\ModelTask->bake('Menuses')
+#6 [internal function]: Cake\Console\Command\Task\ModelTask->main('Menuses')
+#7 /var/www/portal/vendor/cakephp/cakephp/src/Console/Shell.php(375): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/cakephp/cakephp/src/Console/Shell.php(370): Cake\Console\Shell->runCommand(Array, false)
+#9 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(163): Cake\Console\Shell->runCommand(Array, true)
+#10 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(139): Cake\Console\ShellDispatcher->_dispatch()
+#11 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(96): Cake\Console\ShellDispatcher->dispatch()
+#12 /var/www/portal/src/Console/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+2014-08-21 07:13:31 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rising_tide.menuses' doesn't exist
+Stack Trace:
+#0 /var/www/portal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(113): Cake\Database\Schema\Collection->_executeSql('SHOW FULL COLUM...', Array)
+#1 /var/www/portal/vendor/cakephp/cakephp/src/ORM/Table.php(323): Cake\Database\Schema\Collection->describe('menuses')
+#2 /var/www/portal/vendor/cakephp/cakephp/src/ORM/Table.php(396): Cake\ORM\Table->schema()
+#3 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(176): Cake\ORM\Table->primaryKey()
+#4 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(102): Cake\Console\Command\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(89): Cake\Console\Command\Task\ModelTask->bake('Menuses')
+#6 [internal function]: Cake\Console\Command\Task\ModelTask->main('Menus')
+#7 /var/www/portal/vendor/cakephp/cakephp/src/Console/Shell.php(375): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/cakephp/cakephp/src/Console/Shell.php(370): Cake\Console\Shell->runCommand(Array, false)
+#9 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(163): Cake\Console\Shell->runCommand(Array, true)
+#10 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(139): Cake\Console\ShellDispatcher->_dispatch()
+#11 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(96): Cake\Console\ShellDispatcher->dispatch()
+#12 /var/www/portal/src/Console/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+2014-08-21 09:29:14 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rising_tide.menuses' doesn't exist
+Stack Trace:
+#0 /var/www/portal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(113): Cake\Database\Schema\Collection->_executeSql('SHOW FULL COLUM...', Array)
+#1 /var/www/portal/vendor/cakephp/cakephp/src/ORM/Table.php(323): Cake\Database\Schema\Collection->describe('menuses')
+#2 /var/www/portal/vendor/cakephp/cakephp/src/ORM/Table.php(396): Cake\ORM\Table->schema()
+#3 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(176): Cake\ORM\Table->primaryKey()
+#4 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(102): Cake\Console\Command\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /var/www/portal/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(89): Cake\Console\Command\Task\ModelTask->bake('Menus')
+#6 [internal function]: Cake\Console\Command\Task\ModelTask->main('Menu')
+#7 /var/www/portal/vendor/cakephp/cakephp/src/Console/Shell.php(375): call_user_func_array(Array, Array)
+#8 /var/www/portal/vendor/cakephp/cakephp/src/Console/Shell.php(370): Cake\Console\Shell->runCommand(Array, false)
+#9 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(163): Cake\Console\Shell->runCommand(Array, true)
+#10 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(139): Cake\Console\ShellDispatcher->_dispatch()
+#11 /var/www/portal/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(96): Cake\Console\ShellDispatcher->dispatch()
+#12 /var/www/portal/src/Console/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+2014-09-02 22:43:11 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rising_tide.helps' doesn't exist
+Stack Trace:
+#0 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(113): Cake\Database\Schema\Collection->_executeSql('SHOW FULL COLUM...', Array)
+#1 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/ORM/Table.php(323): Cake\Database\Schema\Collection->describe('helps')
+#2 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/ORM/Table.php(396): Cake\ORM\Table->schema()
+#3 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(176): Cake\ORM\Table->primaryKey()
+#4 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(102): Cake\Console\Command\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(89): Cake\Console\Command\Task\ModelTask->bake('Helps')
+#6 [internal function]: Cake\Console\Command\Task\ModelTask->main('help')
+#7 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Console/Shell.php(375): call_user_func_array(Array, Array)
+#8 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Console/Shell.php(370): Cake\Console\Shell->runCommand(Array, false)
+#9 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(163): Cake\Console\Shell->runCommand(Array, true)
+#10 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(139): Cake\Console\ShellDispatcher->_dispatch()
+#11 /var/www/risingtideteam.com/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(96): Cake\Console\ShellDispatcher->dispatch()
+#12 /var/www/risingtideteam.com/src/Console/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+2014-09-18 08:06:22 Error: [Cake\Console\Error\MissingShellException] Shell class for "back" could not be found.
+Exception Attributes: array (
+  'class' => 'back',
+)
+Stack Trace:
+#0 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(160): Cake\Console\ShellDispatcher->findShell('back')
+#1 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(139): Cake\Console\ShellDispatcher->_dispatch()
+#2 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(96): Cake\Console\ShellDispatcher->dispatch()
+#3 /var/www/review/src/Console/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+2014-09-18 08:06:31 Error: [Cake\Database\Error\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /var/www/review/vendor/cakephp/cakephp/src/Database/Connection.php(93): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 /var/www/review/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /var/www/review/vendor/cakephp/cakephp/src/Utility/ObjectRegistry.php(79): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /var/www/review/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(135): Cake\Utility\ObjectRegistry->load('default', Array)
+#4 /var/www/review/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(152): Cake\Datasource\ConnectionManager::get('default')
+#5 /var/www/review/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(100): Cake\Console\Command\Task\ModelTask->getTableObject('Notes', 'notes')
+#6 /var/www/review/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(89): Cake\Console\Command\Task\ModelTask->bake('Notes')
+#7 [internal function]: Cake\Console\Command\Task\ModelTask->main('notes')
+#8 /var/www/review/vendor/cakephp/cakephp/src/Console/Shell.php(375): call_user_func_array(Array, Array)
+#9 /var/www/review/vendor/cakephp/cakephp/src/Console/Shell.php(370): Cake\Console\Shell->runCommand(Array, false)
+#10 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(163): Cake\Console\Shell->runCommand(Array, true)
+#11 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(139): Cake\Console\ShellDispatcher->_dispatch()
+#12 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(96): Cake\Console\ShellDispatcher->dispatch()
+#13 /var/www/review/src/Console/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+2014-09-18 08:11:30 Error: [Cake\Database\Error\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /var/www/review/vendor/cakephp/cakephp/src/Database/Connection.php(93): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 /var/www/review/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /var/www/review/vendor/cakephp/cakephp/src/Utility/ObjectRegistry.php(79): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /var/www/review/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(135): Cake\Utility\ObjectRegistry->load('default', Array)
+#4 /var/www/review/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(152): Cake\Datasource\ConnectionManager::get('default')
+#5 /var/www/review/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(100): Cake\Console\Command\Task\ModelTask->getTableObject('Notes', 'notes')
+#6 /var/www/review/vendor/cakephp/cakephp/src/Console/Command/Task/ModelTask.php(89): Cake\Console\Command\Task\ModelTask->bake('Notes')
+#7 [internal function]: Cake\Console\Command\Task\ModelTask->main('notes')
+#8 /var/www/review/vendor/cakephp/cakephp/src/Console/Shell.php(375): call_user_func_array(Array, Array)
+#9 /var/www/review/vendor/cakephp/cakephp/src/Console/Shell.php(370): Cake\Console\Shell->runCommand(Array, false)
+#10 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(163): Cake\Console\Shell->runCommand(Array, true)
+#11 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(139): Cake\Console\ShellDispatcher->_dispatch()
+#12 /var/www/review/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(96): Cake\Console\ShellDispatcher->dispatch()
+#13 /var/www/review/src/Console/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}

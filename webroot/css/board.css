@@ -1,0 +1,39 @@
+.board-section
+{
+	float: left;
+	width:70%;
+	height:100%;
+	max-height: 100%;
+}
+.add-section
+{
+	float:right;
+	width:30%;
+	height:100%;
+	background:rgba($);
+}
+.board-content:hover
+{
+	background:none;
+}
+.board-content p
+{
+	padding-left:20px;
+}
+#add-board
+{
+	width:100%;
+	float:left;
+
+}
+#add-form
+{
+	float:left;
+	margin:20px;
+}
+#board-header
+{
+	color:#FFF;
+	background:#0071bc;
+	padding:5px;
+}

@@ -1,0 +1,56 @@
+/*
+.user-index
+{
+	list-style: none;
+}
+
+.user-index > a
+{
+	color:#FFF;
+}
+
+.user-index > a > li
+{
+	background:rgba(0,0,0,0.5);
+	margin:10px;
+	float:left;
+	width:300px;
+	height:64px;
+	float:left;
+}
+.user-index > a > li:hover
+{
+	background: rgba(255,255,255,0.2);
+	cursor:pointer;
+}
+
+.user-index > a > li > img
+{
+	float:left;
+}
+
+.user-index > a > li > span
+{
+	padding:5px;
+	display:block;
+	line-height: 12px;
+	margin-left:5px;
+	position:relative;
+	left:5px;
+	font-size: 14pt;
+}
+
+.user-index > a > li > small
+{
+	color:#FAF;
+	display:block;
+	line-height: 10pt;
+	position:relative;
+	left:5px;
+}
+.badge
+{
+	background: none;
+	outline:none;
+}
+*/

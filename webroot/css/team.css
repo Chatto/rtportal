@@ -1,0 +1,26 @@
+.team-section
+{
+	width:100%;
+	height:100%;
+	display:inline-block;
+	float:left;
+}
+.meeting-section
+{
+	width:50%;
+	height:100%;
+	display:inline-block;
+	float:left;
+}
+#team-table
+{
+	color:#FFF;
+	padding:5px;
+	background-color:#0071bc;
+}
+#meetings
+{
+	color:#FFF;
+	padding:5px;
+	background-color:#f7931e;
+}

@@ -1,0 +1,41 @@
+.form-section
+{
+	float: left;
+	width:25%;
+	height:100%;
+	max-height: 100%;
+}
+.form-section > h4
+{
+	color:#FFF;
+	padding:5px;
+}
+#coaching-input
+{
+	background:#f7931e;
+	background-opacity:0.5;
+}
+#coaching-worksheet
+{
+	background:#0071bc;
+	background-opacity:0.5;
+}
+#development-plan
+{
+	background:#009245;
+	background-opacity:0.5;
+}
+#coaching-process 
+{
+	*background:rgba(0,0,0,0.25);
+}
+#coaching-process > h4,
+#coaching-process > p
+{
+	color:#FFF;
+	padding:5px;
+}
+#coaching-process > h4
+{
+	font-size: 16pt;
+}

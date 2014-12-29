@@ -1,0 +1,1 @@
+<h4 class="alert alert-error" role="alert"><?= h($message) ?></h4>

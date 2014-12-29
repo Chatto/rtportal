@@ -1,0 +1,55 @@
+form
+{
+	padding:10px;
+}
+input,
+textarea,
+select
+{
+	float:right;
+    *clear:both;
+    display:inline;
+    width:50%;
+}
+label
+{
+	float:left;
+    *clear:both;
+    display:inline;
+}
+form>button
+{
+	margin-top:20px;
+	float:right;
+	clear:both;
+}
+form>div
+{
+	margin-top:25px;
+	height:auto;
+	overflow: hidden;
+}
+form>small
+{
+	display:inline-block;
+	margin-left:20px;
+	color:#90B;
+	width:40%;
+	position:relative;
+	top:80px;
+	overflow:hidden;
+}
+.form
+{
+	background:rgba(0,0,0,0.5);
+	color:#FFF;
+	padding:20px;
+	margin:20px;
+	width:600px;
+    right: 0;
+    left: 0;
+    margin-right:auto;
+    margin-left:auto;
+    *height: 1%;
+    overflow: hidden;
+}
