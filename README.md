@@ -1,21 +1,14 @@
-# CakePHP Application Skeleton
+# Rising Tide Team Portal
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.0.
+Written with [CakePHP](http://cakephp.org) 3.0.
 
-This is an unstable repository and should be treated as an alpha.
+This is an unstable repository and should be treated as a (pre)alpha.
 
 ## Installation
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project -s dev cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-`composer create-project -s dev cakephp/app [app_name]`
-
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
+1. Clone neccessary files from git repo on server
+2. Run SQL
 
 ## Configuration
 
-Read and edit `src/Config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+3. Make sure...make...config.php something....I'm shy GITHub.
